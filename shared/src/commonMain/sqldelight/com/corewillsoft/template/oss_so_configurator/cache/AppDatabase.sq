@@ -1,0 +1,14 @@
+CREATE TABLE Rocket (
+    id   INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL
+);
+
+insertRocket:
+INSERT INTO Rocket(name)
+VALUES( ?);
+
+removeAllRockets:
+DELETE FROM Rocket;
+
+getAllRockets:
+SELECT * FROM Rocket;
